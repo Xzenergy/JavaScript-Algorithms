@@ -66,7 +66,13 @@ function findLongestWord(str) {
   return maxLength;
 }
 
-findLongestWord("The quick brown fox jumped over the lazy dog");
+findLongestWord("I must not fear.
+Fear is the mind-killer.
+Fear is the little-death that brings total obliteration.
+I will face my fear.
+I will permit it to pass over me and through me.
+And when it has gone past I will turn the inner eye to see its path.
+Where the fear has gone there will be nothing. Only I will remain.");
 //
 
 
@@ -76,14 +82,13 @@ function titleCase(str) {
   return str.toLowerCase().replace(/(^|\s)\S/g, (L) => L.toUpperCase());
 }
 
-titleCase("I'm a little tea pot");
+titleCase("Telperion and Laurelin");
 //
 
 
 //Largest number in Array Selector
 
 function largestOfFour(arr) {
-  // You can do this!
   var results = [];
   for (var n = 0; n < arr.length; n++) {
     var largestNumber = arr[n][0];
