@@ -140,3 +140,22 @@ function confirmEnding(str, target) {
 confirmEnding("Bastian", "n");
 ```
 ___
+
+
+
+
+**//Recursive String Repeater**
+```
+function repeatStringNumTimes(str, num) {
+  if (num < 0)
+    return "";
+  if (num === 1)
+    return str;
+   else
+    return str + repeatStringNumTimes(str, num - 1); 
+  }
+
+
+repeatStringNumTimes("abc", 3);
+```
+___
