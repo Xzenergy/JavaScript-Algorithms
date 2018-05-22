@@ -2,9 +2,9 @@
 
 
 **__Simple Algorithm Repo I've put together to show the work I have beginners knowledge of. I'll be using these algorithms in the future to build projects and further my ability to use these, and other more efficient ways of doing things. This was all done through freecodecamp in their browser engine.__** 
+___
 
-
-//Reversal of String
+**//Reversal of String**
 ```
 function reverseString(str) {
   return str.split('').reverse().join('');
@@ -18,7 +18,7 @@ ___
 
 
 
-//Factorialize
+**//Factorialize**
 ```
 function factorialize(num) {
   if (num === 0) {return 1;}
@@ -34,7 +34,7 @@ ___
 
 
 
-//Palindrome Identifier
+**//Palindrome Identifier**
 ```
 function palindrome(str) {
   let front = 0;
@@ -65,7 +65,7 @@ ___
 
 
 
-//String Identifier
+**//String Identifier**
 ```
 function findLongestWord(str) {
   var words = str.split(' ');
@@ -93,7 +93,7 @@ ___
 
 
 
-//Case Modifier 
+**//Case Modifier** 
 ```
 function titleCase(str) {
   return str.toLowerCase().replace(/(^|\s)\S/g, (L) => L.toUpperCase());
@@ -106,7 +106,7 @@ ___
 
 
 
-//Largest number in Array Selector
+**//Largest number in Array Selector**
 ```
 function largestOfFour(arr) {
   var results = [];
@@ -131,7 +131,7 @@ ___
 
 
 
-//Boolean String Verifier
+**//Boolean String Verifier**
 ```
 function confirmEnding(str, target) {
   return str.substr(-target.length) === target;
