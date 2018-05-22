@@ -1,7 +1,8 @@
 # JavaScript-Algorithms
 
 
-**__Simple Algorithm Repo I've put together to show the work I have beginners knowledge of. I'll be using these algorithms in the future to build projects and further my ability to use these, and other more efficient ways of doing things. This was all done through freecodecamp in their browser engine.__** 
+Simple Algorithm Repo I've put together to show the basic knowledge and work I have in JavaScript. I'll be using these algorithms in the future to build projects and further my knowledge and better the ways of doing things. This was all done through freecodecamp in their browser engine.
+
 ___
 
 **//Reversal of String**
