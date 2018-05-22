@@ -27,7 +27,7 @@ function factorialize(num) {
 
 factorialize(5);
 //
-
+___
 
 
 
@@ -58,7 +58,7 @@ function palindrome(str) {
 
 palindrome("eye");
 //
-
+___
 
 
 
@@ -87,7 +87,7 @@ I will permit it to pass over me and through me.
 And when it has gone past I will turn the inner eye to see its path.
 Where the fear has gone there will be nothing. Only I will remain.");
 //
-
+___
 
 
 
@@ -101,7 +101,7 @@ function titleCase(str) {
 
 titleCase("Telperion and Laurelin");
 //
-
+___
 
 
 
@@ -125,7 +125,7 @@ function largestOfFour(arr) {
 }
 
 largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]);//
-
+___
 
 
 
@@ -137,3 +137,4 @@ function confirmEnding(str, target) {
 }
 
 confirmEnding("Bastian", "n");//
+___
