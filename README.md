@@ -11,7 +11,6 @@ function reverseString(str) {
 }
 
 reverseString("hello");
-//
 ```
 ___
 
@@ -20,14 +19,14 @@ ___
 
 
 //Factorialize
-
+```
 function factorialize(num) {
   if (num === 0) {return 1;}
   return num * factorialize (num - 1)
 }
 
 factorialize(5);
-//
+```
 ___
 
 
@@ -36,7 +35,7 @@ ___
 
 
 //Palindrome Identifier
-
+```
 function palindrome(str) {
   let front = 0;
   let back = str.length - 1;
@@ -58,7 +57,7 @@ function palindrome(str) {
 
 
 palindrome("eye");
-//
+```
 ___
 
 
@@ -67,7 +66,7 @@ ___
 
 
 //String Identifier
-
+```
 function findLongestWord(str) {
   var words = str.split(' ');
   var maxLength = 0;
@@ -87,7 +86,7 @@ I will face my fear.
 I will permit it to pass over me and through me.
 And when it has gone past I will turn the inner eye to see its path.
 Where the fear has gone there will be nothing. Only I will remain.");
-//
+```
 ___
 
 
@@ -95,20 +94,20 @@ ___
 
 
 //Case Modifier 
-
+```
 function titleCase(str) {
   return str.toLowerCase().replace(/(^|\s)\S/g, (L) => L.toUpperCase());
 }
 
 titleCase("Telperion and Laurelin");
-//
+```
 ___
 
 
 
 
 //Largest number in Array Selector
-
+```
 function largestOfFour(arr) {
   var results = [];
   for (var n = 0; n < arr.length; n++) {
@@ -125,7 +124,8 @@ function largestOfFour(arr) {
     return results;
 }
 
-largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]);//
+largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]);
+```
 ___
 
 
