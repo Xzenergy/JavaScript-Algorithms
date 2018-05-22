@@ -5,13 +5,14 @@ Simple Algorithm Repo I've put together to show the work I have beginners knowle
 
 
 //Reversal of String
-
+```
 function reverseString(str) {
   return str.split('').reverse().join('');
 }
 
 reverseString("hello");
 //
+```
 ___
 
 
