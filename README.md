@@ -164,7 +164,7 @@ ___
 
 
 
-**//Truncate String
+**//Truncate String**
 ```
 function truncateString(str, num) {
  if (str.length > num)
