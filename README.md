@@ -66,7 +66,7 @@ ___
 
 
 
-**//String Identifier**
+**//String Length Identifier**
 ```
 function findLongestWord(str) {
   var words = str.split(' ');
@@ -107,7 +107,7 @@ ___
 
 
 
-**//Largest number in Array Selector**
+**//Largest Number Array Selector**
 ```
 function largestOfFour(arr) {
   var results = [];
@@ -164,7 +164,7 @@ ___
 
 
 
-**//Truncate String**
+**//Truncating String Function**
 ```
 function truncateString(str, num) {
  if (str.length > num)
